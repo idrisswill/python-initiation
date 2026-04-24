@@ -1,0 +1,20 @@
+{
+  "name": "Python & Jupyter Template Formation Lena Ndimi",
+  "image": "://microsoft.com",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "tamasfe.even-better-toml",
+        "mechatroner.rainbow-csv"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      }
+    }
+  },
+  "forwardPorts": [8888],
+  "postCreateCommand": "pip install -r requirements.txt",
+  "remoteUser": "codespace"
+}
