@@ -12,7 +12,11 @@
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python"
       }
-    }
+    },
+    "codespaces": {
+      "openFiles": [
+        "notebook.ipynb"
+      ]
   },
   "forwardPorts": [8888],
   "postCreateCommand": "pip install -r requirements.txt",
