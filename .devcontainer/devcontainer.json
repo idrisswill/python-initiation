@@ -17,8 +17,11 @@
       "openFiles": [
         "cour_python_001.ipynb"
       ]
-  },
-  "forwardPorts": [8888],
-  "postCreateCommand": "pip install -r requirements.txt",
-  "remoteUser": "codespace"
+    },
+    "forwardPorts": [
+      8888
+    ],
+    "postCreateCommand": "pip install -r requirements.txt",
+    "remoteUser": "codespace"
+  }
 }
