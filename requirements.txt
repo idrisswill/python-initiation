@@ -3,3 +3,5 @@ pandas
 rich
 tqdm
 ipykernel
+matplotlib
+ipywidgets
