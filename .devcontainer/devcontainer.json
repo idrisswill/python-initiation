@@ -1,6 +1,6 @@
 {
   "name": "Python & Jupyter Template Formation Lena Ndimi",
-  "image": "://microsoft.com",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -13,15 +13,11 @@
         "python.defaultInterpreterPath": "/usr/local/bin/python"
       }
     },
-    "codespaces": {
-      "openFiles": [
-        "cour_python_001.ipynb"
-      ]
-    },
     "forwardPorts": [
       8888
     ],
     "postCreateCommand": "pip install -r requirements.txt",
+    "postAttachCommand": "code cour_python_001.ipynb",
     "remoteUser": "codespace"
   }
 }
